@@ -38,3 +38,10 @@ The comparative analysis of the 18 models revealed that the **Tuned XGBoost** an
 *   **Top Performance:** Both models achieved an impressive **AUC of 0.94**[cite: 1].
 *   **Final Model Selection:** The **Stacking Classifier** was selected as the optimal model due to its superior Precision score, effectively minimizing false-positive predictions[cite: 1].
 *   **Feature Importance:** The most critical predictors of student success were academic performance metrics, specifically: *Curricular units 2nd semester (approved)*, *Curricular units 1st semester (approved)*, and *Curricular units 1st semester (enrolled)*[cite: 1].
+
+## 📚 References
+This project is an independent implementation and reproduction of the methodologies proposed in the following research paper:
+
+*   Arora D. Predicting Students Academic Success and Dropout Using Supervised Machine Learning. *Int J Sci Stud* 2023;11(6):72-78. 
+    *   **Journal Link:** [International Journal of Scientific Study](https://www.ijss-sn.com)
+    *   **Dataset:** [UCI Machine Learning Repository - Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)

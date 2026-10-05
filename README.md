@@ -29,6 +29,8 @@ The project follows a rigorous end-to-end data science pipeline to reproduce and
 4.  **Evaluation Strategy:**
     *   Developed custom Python functions to calculate Accuracy, Precision, Recall, F1 Score, AUC ROC, and Confusion Matrices[cite: 1].
     *   Prioritized **Precision** over Recall to minimize false positives, as predicting a student will graduate when they will actually drop out is considered a higher risk than the reverse[cite: 1].
+  
+Note: To strictly reproduce the original paper's methodology, the $\Phi_k$ correlation matrix was evaluated on the entire dataset. In a production environment, this step would be isolated to the training split to prevent target leakage.
 
 ## 📊 Results & Evaluation
 The comparative analysis of the 18 models revealed that the **Tuned XGBoost** and **Stacking Classifier** (equipped with AdaBoost and Gradient Boost) yielded the best overall performance[cite: 1]. 

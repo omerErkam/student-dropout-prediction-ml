@@ -43,5 +43,5 @@ The comparative analysis of the 18 models revealed that the **Tuned XGBoost** an
 This project is an independent implementation and reproduction of the methodologies proposed in the following research paper:
 
 *   Arora D. Predicting Students Academic Success and Dropout Using Supervised Machine Learning. *Int J Sci Stud* 2023;11(6):72-78. 
-    *   **Journal Link:** [International Journal of Scientific Study](https://www.ijss-sn.com)
+    *   **Journal Website:** [International Journal of Scientific Study](https://www.ijss-sn.com)
     *   **Dataset:** [UCI Machine Learning Repository - Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
